@@ -1,3 +1,11 @@
 body {
   background-color: #c6d0f5;
 }
+
+#container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+}
