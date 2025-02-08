@@ -2,6 +2,11 @@ body {
   background-color: #c6d0f5;
 }
 
+div {
+  border: 1px solid #414559;
+
+}
+
 #container {
   width: 400px;
   height: 400px;
@@ -9,6 +14,8 @@ body {
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
 }
+
+
 
 .grid-cell:hover {
   background-color: #ea999c;
