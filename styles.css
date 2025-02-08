@@ -1,21 +1,26 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
   background-color: #c6d0f5;
 }
 
-div {
+/* div {
   border: 1px solid #414559;
-
-}
+  justify-content: center;
+} */
 
 #container {
+  border: 1px solid #414559;
+  background-color: #b5bfe2;
   width: 400px;
   height: 400px;
   display: flex;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
 }
-
-
 
 .grid-cell:hover {
   background-color: #ea999c;
